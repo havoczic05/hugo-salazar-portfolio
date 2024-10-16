@@ -15,14 +15,14 @@ const skillItem = [
     desc: 'Framework'
   },
   {
-    imgSrc: '/images/react.svg',
-    label: 'React',
-    desc: 'Framework'
-  },
-  {
     imgSrc: '/images/javascript.svg',
     label: 'JavaScript',
     desc: 'Interaction'
+  },
+  {
+    imgSrc: '/images/react.svg',
+    label: 'React',
+    desc: 'Framework'
   },
   {
     imgSrc: '/images/css3.svg',
@@ -35,6 +35,11 @@ const skillItem = [
     desc: 'User Interface'
   },
   {
+    imgSrc: '/images/bootstrap.svg',
+    label: 'Bootstrap',
+    desc: 'User Interface'
+  },
+  {
     imgSrc: '/images/figma.svg',
     label: 'Figma',
     desc: 'Design tool'
@@ -44,6 +49,16 @@ const skillItem = [
     imgSrc: '/images/postgresql.svg',
     label: 'PostgreSQL',
     desc: 'Database'
+  },
+  {
+    imgSrc: '/images/heroku.svg',
+    label: 'Heroku',
+    desc: 'Deployment'
+  },
+  {
+    imgSrc: '/images/git.svg',
+    label: 'Git',
+    desc: 'Version Control'
   }
 
 ];
@@ -59,7 +74,7 @@ const Skill = () => {
         Technologies I use to create impactful, efficient and user-friendly applications.
         </p>
 
-        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
+        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))]">
           {
             skillItem.map(({imgSrc,label,desc}, key) =>
               (

@@ -48,11 +48,11 @@ const Footer = () => {
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
             <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
-                Let&apos;s work together today!
+              Looking for a motivated developer?
             </h2>
 
             <ButtonPrimary
-            label="Start project"
+            label="Let&apos;s connect"
             href="mailto:hugog.salazarl@gmail.com"
             icon="chevron_right"
             classes='reveal-up'

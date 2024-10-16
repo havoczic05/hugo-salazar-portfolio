@@ -28,11 +28,11 @@ const Contact = () => {
         <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
 
           <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
-            Contact me for collaboration
+            Ready to explore how I can contribute?
           </h2>
 
           <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
-            Reach out today to discuss your project needs and start collaborating on something amazing!
+            I bring the perfect mix of foundational skills and a commitment to continuous learning
           </p>
 
           <div className="flex items-center gap-2 mt-auto">
@@ -70,7 +70,7 @@ const Contact = () => {
                 id="name"
                 autoComplete="name"
                 required
-                placeholder="Hugo Salazar"
+                placeholder="Jhon Doe"
                 className="text-field reveal-up"
                 />
               </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                 id="email"
                 autoComplete="email"
                 required
-                placeholder="hugo@me.com"
+                placeholder="jhondoe@recruiter.com"
                 className="text-field reveal-up"
                 />
               </div>
@@ -110,7 +110,7 @@ const Contact = () => {
               <textarea
               name="message"
               id="message"
-              placeholder="Hi, let's work together!"
+              placeholder="Hi, i want you in my team!"
               required
               className="text-field resize-y min-h-32 max-h-80 reveal-up"
               >
