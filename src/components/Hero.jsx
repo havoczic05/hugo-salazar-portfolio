@@ -34,6 +34,8 @@ const Hero = () => {
           <ButtonPrimary
            label="Download CV"
            icon="download"
+           href="/HUGO_GIANPIERRE_SALAZAR_LEIVA_ENG.pdf"
+           download="HUGO_GIANPIERRE_SALAZAR_LEIVA_ENG.pdf"
           />
 
           <ButtonOutline
@@ -45,7 +47,7 @@ const Hero = () => {
         </div>
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-            <img src="/images/hero-banner-hs.jpg"
+            <img src="/images/hero-banner.png"
             width={656}
             height={800}
             alt="Hugo Salazar"
