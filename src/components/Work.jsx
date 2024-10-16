@@ -12,7 +12,7 @@ const works = [
     imgSrc: '/images/project-2.jpg',
     title: 'Free stock photo app',
     tags: ['API', 'SPA'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    projectLink: ''
   },
   /* {
     imgSrc: '/images/project-3.jpg',
