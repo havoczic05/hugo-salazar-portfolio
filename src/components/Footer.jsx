@@ -12,12 +12,16 @@ const sitemap = [
     href: '#about'
   },
   {
-    label: 'Work',
+    label: 'Projects',
     href: '#work'
   },
+  // {
+  //   label: 'Reviews',
+  //   href: '#reviews'
+  // },
   {
-    label: 'Reviews',
-    href: '#reviews'
+    label: 'Education',
+    href: '#education'
   },
   {
     label: 'Contact me',
@@ -34,7 +38,7 @@ const socials = [
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/codewithsadee'
   },
-  
+
 
 ];
 const Footer = () => {
@@ -102,9 +106,9 @@ const Footer = () => {
           className="logo reveal-up"
           >
             <img
-            src="/images/logo.svg"
-            width={40}
-            height={40}
+            src="images/h_logo_text_white.svg"
+            width={35}
+            height={35}
             alt="Logo"
             />
           </a>

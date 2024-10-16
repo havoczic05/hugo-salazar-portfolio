@@ -13,7 +13,7 @@ const Header = () => {
 
        <h1>
         <a href="/" className="logo">
-          <img src="/images/logo.svg" width={40} height={40} alt="Hugo Salazar" />
+          <img src="/images/h_logo_text_white.svg" width={35} height={35} alt="Hugo Salazar" />
         </a>
        </h1>
         <div className="relative md:justify-self-center">
