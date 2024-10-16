@@ -5,7 +5,7 @@ const works = [
   {
     imgSrc: '/images/project-1.jpg',
     title: 'Pet sitting app',
-    tags: [ 'RoR', 'JS','API', 'MVC'],
+    tags: [ 'RoR', 'JS','API', 'MVC', 'Auth'],
     projectLink: 'https://musify-5al0.onrender.com/'
   },
   {
@@ -14,7 +14,7 @@ const works = [
     tags: ['API', 'SPA'],
     projectLink: 'https://pixstock-official.vercel.app/'
   },
-  {
+  /* {
     imgSrc: '/images/project-3.jpg',
     title: 'Recipe app',
     tags: ['Development', 'API'],
@@ -37,7 +37,7 @@ const works = [
     title: 'vCard Personal portfolio',
     tags: ['Web-design', 'Development'],
     projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
-  },
+  }, */
 ];
 
 const Work = () => {

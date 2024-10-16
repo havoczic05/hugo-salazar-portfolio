@@ -47,7 +47,7 @@ const Footer = () => {
       <div className="container">
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
-            <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
+            <h2 className="headline-1 mb-8 lg:max-w-[17ch] reveal-up">
               Looking for a motivated developer?
             </h2>
 
