@@ -40,10 +40,10 @@ const Education = () => {
               height={35}
               alt="Logo"
             />
-              <h4 className="title-1 text-zinc-400 flex-grow md:max-w-[75ch]">
+              <h4 className="title-1 text-zinc-400  md:max-w-[75ch]">
               {school}
             </h4>
-            <span className="title-2">{date}</span>
+            <span className="title-2">- {date}</span>
           </div>
 
           <p className="text-zinc-300 mt-2 mb-4 md:mb-8 md:text-xl md:max-w-[75ch]">
