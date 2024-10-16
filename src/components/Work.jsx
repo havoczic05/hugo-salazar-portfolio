@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCard";
 const works = [
   {
     imgSrc: '/images/project-1.jpg',
-    title: 'Full stack music app',
-    tags: ['API', 'MVC', 'Development'],
+    title: 'Pet sitting app',
+    tags: [ 'RoR', 'JS','API', 'MVC'],
     projectLink: 'https://musify-5al0.onrender.com/'
   },
   {
