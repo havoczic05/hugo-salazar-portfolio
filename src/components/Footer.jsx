@@ -34,18 +34,8 @@ const socials = [
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/codewithsadee'
   },
-  {
-    label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_'
-  },
-  {
-    label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee'
-  },
-  {
-    label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee'
-  }
+  
+
 ];
 const Footer = () => {
   return (
