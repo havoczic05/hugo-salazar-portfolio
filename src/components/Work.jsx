@@ -6,7 +6,7 @@ const works = [
     imgSrc: '/images/project-1.jpg',
     title: 'Pet sitting app',
     tags: [ 'RoR', 'JS','API', 'MVC', 'Auth'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    projectLink: 'https://petcare-285c6b31bf08.herokuapp.com/'
   },
   {
     imgSrc: '/images/project-2.jpg',
