@@ -10,9 +10,9 @@ const works = [
   },
   {
     imgSrc: '/images/project-2.jpg',
-    title: 'Free stock photo app',
-    tags: ['API', 'SPA'],
-    projectLink: ''
+    title: 'Grid Generator',
+    tags: ['HTML', 'CSS', 'JS'],
+    projectLink: 'https://havoczic05.github.io/etch-a-sketch-js/'
   },
   /* {
     imgSrc: '/images/project-3.jpg',
