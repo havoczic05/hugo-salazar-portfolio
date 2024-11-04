@@ -5,7 +5,7 @@ const works = [
   {
     imgSrc: '/images/project-1.jpg',
     title: 'Pet sitting app',
-    tags: [ 'RoR', 'JS','API', 'MVC', 'Auth'],
+    tags: [ 'RoR', 'JS','API', 'MVC'],
     projectLink: 'https://petcare-285c6b31bf08.herokuapp.com/'
   },
   {
@@ -14,13 +14,13 @@ const works = [
     tags: ['HTML', 'CSS', 'JS'],
     projectLink: 'https://havoczic05.github.io/etch-a-sketch-js/'
   },
-  /* {
-    imgSrc: '/images/project-3.jpg',
-    title: 'Recipe app',
-    tags: ['Development', 'API'],
-    projectLink: ''
-  },
   {
+    imgSrc: '/images/project-3.jpg',
+    title: 'Rock Paper Scissors',
+    tags: ['HTML', 'CSS', 'JS'],
+    projectLink: 'https://havoczic05.github.io/rock-paper-scissors-js/'
+  },
+  /* {
     imgSrc: '/images/project-4.jpg',
     title: 'Real state website',
     tags: ['Web-design', 'Development'],
