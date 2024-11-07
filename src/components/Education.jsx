@@ -4,7 +4,7 @@ const education = [
     date: "September 2024",
     school: "Le Wagon",
     description:
-      "360-hour full-time bootcamp focused on front-end and back-end development using HTML, CSS, Bootstrap, JavaScript ES6, SQL, Git, GitHub, Heroku, Ruby on Rails, Hotwire, Action Cable, and AI. I designed, implemented, and launched a full web application called Petcare, which connects pet owners with sitters.",
+      "360-hour full-time bootcamp focused on front-end and back-end development using HTML, CSS, Bootstrap, JavaScript, React, PostgreSQL, Git, GitHub, Heroku, Ruby on Rails, Hotwire, Action Cable, and AI. I designed, implemented, and launched a full web application called Petcare, which connects pet owners with sitters.",
     imgSrc: "/images/le_wagon.png",
   },
   {
@@ -25,7 +25,7 @@ const Education = () => {
           Highlighting my academic journey, showcasing my commitment to
           continuous learning and technical excellence.
         </p>
-        {education.map(({ title, date, school, description, imgSrc }, key) => (
+        {education.map(({ title, school, description, imgSrc }, key) => (
           <div
             key={key}
             className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 mt-3 reveal-up">
@@ -35,7 +35,7 @@ const Education = () => {
               <h4 className="title-1 text-zinc-400  md:max-w-[75ch]">
                 {school}
               </h4>
-              <span className="title-2">- {date}</span>
+              {/* <span className="title-2">- {date}</span> */}
             </div>
 
             <p className="text-zinc-300 mt-2 mb-4 md:mb-8 md:text-xl md:max-w-[75ch]">
