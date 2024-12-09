@@ -20,13 +20,13 @@ const works = [
     tags: ["HTML", "CSS", "JS"],
     projectLink: "https://havoczic05.github.io/rock-paper-scissors-js/",
   },
-  /* {
+   {
     imgSrc: '/images/project-4.jpg',
-    title: 'Real state website',
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee-org/wealthome'
-  },
-  {
+    title: 'Task Manager',
+    tags: ['Next.js', 'Shadcn UI', 'Tailwind CSS', 'Typescript', 'Prisma'],
+    projectLink: 'https://github.com/havoczic05/task-manager-nextjs'
+  }
+  /*{
     imgSrc: '/images/project-5.jpg',
     title: 'eCommerce website',
     tags: ['eCommerce', 'Development'],
