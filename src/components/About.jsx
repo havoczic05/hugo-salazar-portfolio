@@ -2,7 +2,7 @@ const softSkills = [
   " Communication",
   "Team Collaboration",
   "Problem Solving",
-  "C2 English proficiency",
+  "C1 English",
   "Adaptability",
   "Continous Learning",
 ];
@@ -13,14 +13,13 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[75ch]">
-            Hi! I&apos;m <strong>Hugo</strong>, a frontend developer with a
-            strong foundation in{" "}
-            <strong>Ruby on Rails, CSS, JavaScript,</strong> and{" "}
-            <strong>React</strong>. I&apos;m dependable and ready to contribute
-            immediately.{" "}
+            Hi! I&apos;m <strong>Hugo</strong>, with hands-on experience in building web applications using front-end and backend technologies like{" "}
+            <strong> React.js, Next.js, Ruby on Rails,</strong> and{" "}
+            <strong>JavaScript</strong>.<br /><br />Equipped with a strong foundation in
+            web development concepts and a proven ability to collaborate in multidisciplinary teams.{" "}<br /><br />
             <strong>
-              I can be the fresh, motivated solution to your company&apos;s
-              needs!
+            Passionate about contributing to innovative,
+            impactful projects in a global, remote-first environment
             </strong>
           </p>
 

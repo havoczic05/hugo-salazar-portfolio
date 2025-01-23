@@ -3,6 +3,21 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
+    imgSrc: "/images/react.svg",
+    label: "React",
+    desc: "Framework",
+  },
+  {
+    imgSrc: "/images/javascript.svg",
+    label: "JavaScript",
+    desc: "Interaction",
+  },
+  {
+    imgSrc: "/images/tailwindcss.svg",
+    label: "TailwindCSS",
+    desc: "User Interface",
+  },
+  {
     imgSrc: "/images/ruby1.svg",
     label: "Ruby",
     desc: "Back-End",
@@ -12,26 +27,13 @@ const skillItem = [
     label: "Ruby on Rails",
     desc: "Framework",
   },
-  {
-    imgSrc: "/images/javascript.svg",
-    label: "JavaScript",
-    desc: "Interaction",
-  },
-  {
-    imgSrc: "/images/react.svg",
-    label: "React",
-    desc: "Framework",
-  },
+
   {
     imgSrc: "/images/css3.svg",
     label: "CSS",
     desc: "User Interface",
   },
-  {
-    imgSrc: "/images/tailwindcss.svg",
-    label: "TailwindCSS",
-    desc: "User Interface",
-  },
+
   {
     imgSrc: "/images/bootstrap.svg",
     label: "Bootstrap",

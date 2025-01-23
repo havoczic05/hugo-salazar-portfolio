@@ -4,7 +4,7 @@ const education = [
     date: "September 2024",
     school: "Le Wagon",
     description:
-      "360-hour full-time bootcamp focused on front-end and back-end development using HTML, CSS, Bootstrap, JavaScript, React, PostgreSQL, Git, GitHub, Heroku, Ruby on Rails, Hotwire, Action Cable, and AI. I designed, implemented, and launched a full web application called Petcare, which connects pet owners with sitters.",
+      "Intensive 360-hour full-time bootcamp focused on fullstack development using JavaScript, React.js, Next.js, Ruby on Rails, Hotwire, SQL, Git, and AI. I designed, implemented, and launched a complete web application called Petcare, which connects pet owners with caregivers.",
     imgSrc: "/images/le_wagon.png",
   },
   {
@@ -12,7 +12,7 @@ const education = [
     date: "Present",
     school: "Universidad Tecnológica del Perú",
     description:
-      "Currently in the first year of a comprehensive five-year program, focused on mastering the key processes of software development. Gaining hands-on experience with the full software development lifecycle, including requirements analysis, design, implementation, testing, and deployment.",
+      "Five-year program focused on algorithms, data structures, and the complete software development lifecycle. Gaining experience in requirements analysis, efficient design, implementation, and testing, while applying agile methodologies to develop scalable and optimized solutions.",
     imgSrc: "/images/utp.png",
   },
 ];

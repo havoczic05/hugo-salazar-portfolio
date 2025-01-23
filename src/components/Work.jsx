@@ -9,6 +9,18 @@ const works = [
     projectLink: "https://petcare-285c6b31bf08.herokuapp.com/",
   },
   {
+    imgSrc: '/images/project-5.avif',
+    title: 'Fashion Designer Landing Page',
+    tags: ['JS', 'CSS', 'HTML'],
+    projectLink: 'https://rocioleyva.netlify.app/'
+  },
+  {
+    imgSrc: '/images/project-4.jpg',
+    title: 'Task Manager',
+    tags: ['Next.js', 'Shadcn UI', 'Tailwind CSS', 'Typescript', 'Prisma'],
+    projectLink: 'https://github.com/havoczic05/task-manager-nextjs'
+  },
+  {
     imgSrc: "/images/project-2.jpg",
     title: "Grid Generator",
     tags: ["HTML", "CSS", "JS"],
@@ -20,19 +32,7 @@ const works = [
     tags: ["HTML", "CSS", "JS"],
     projectLink: "https://havoczic05.github.io/rock-paper-scissors-js/",
   },
-   {
-    imgSrc: '/images/project-4.jpg',
-    title: 'Task Manager',
-    tags: ['Next.js', 'Shadcn UI', 'Tailwind CSS', 'Typescript', 'Prisma'],
-    projectLink: 'https://github.com/havoczic05/task-manager-nextjs'
-  }
-  /*{
-    imgSrc: '/images/project-5.jpg',
-    title: 'eCommerce website',
-    tags: ['eCommerce', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
-  },
-  {
+  /* {
     imgSrc: '/images/project-6.jpg',
     title: 'vCard Personal portfolio',
     tags: ['Web-design', 'Development'],
@@ -46,11 +46,11 @@ const Work = () => {
       <div className="container">
         <h2 className="headline-2 mb-8 reveal-up">My Projects</h2>
 
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[80ch] reveal-up">
+        <p className="text-zinc-400 mt-3 mb-8 max-w-[90ch] reveal-up">
           Showcasing user-friendly frontend solutions and interactive web apps with a focus on quality and creativity.
         </p>
 
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
+        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))]">
           {works.map(({ imgSrc, title, tags, projectLink }, key) => (
             <ProjectCard
               key={key}
