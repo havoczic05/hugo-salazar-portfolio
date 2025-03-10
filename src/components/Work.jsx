@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/images/project-1.jpg",
+    imgSrc: "/images/project-1.webp",
     title: "Pet Sitting App",
     tags: ["RoR", "JS", "API", "MVC"],
     projectLink: "https://petcare-285c6b31bf08.herokuapp.com/",
@@ -15,19 +15,19 @@ const works = [
     projectLink: 'https://rocioleyva.netlify.app/'
   },
   {
-    imgSrc: '/images/project-4.jpg',
+    imgSrc: '/images/project-4.webp',
     title: 'Task Manager',
     tags: ['Next.js', 'Shadcn UI', 'Tailwind CSS', 'Typescript', 'Prisma'],
     projectLink: 'https://github.com/havoczic05/task-manager-nextjs'
   },
   {
-    imgSrc: "/images/project-2.jpg",
+    imgSrc: "/images/project-2.webp",
     title: "Grid Generator",
     tags: ["HTML", "CSS", "JS"],
     projectLink: "https://havoczic05.github.io/etch-a-sketch-js/",
   },
   {
-    imgSrc: "/images/project-3.jpg",
+    imgSrc: "/images/project-3.webp",
     title: "Rock Paper Scissors",
     tags: ["HTML", "CSS", "JS"],
     projectLink: "https://havoczic05.github.io/rock-paper-scissors-js/",

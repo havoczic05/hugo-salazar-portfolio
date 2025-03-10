@@ -13,7 +13,7 @@ const education = [
     school: "Universidad Tecnológica del Perú",
     description:
       "Five-year program focused on algorithms, data structures, and the complete software development lifecycle. Gaining experience in requirements analysis, efficient design, implementation, and testing, while applying agile methodologies to develop scalable and optimized solutions.",
-    imgSrc: "/images/utp.png",
+    imgSrc: "/images/utp.webp",
   },
 ];
 const Education = () => {
