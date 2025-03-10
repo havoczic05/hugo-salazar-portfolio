@@ -5,7 +5,7 @@ const education = [
     school: "Le Wagon",
     description:
       "Intensive 360-hour full-time bootcamp focused on fullstack development using JavaScript, React.js, Next.js, Ruby on Rails, Hotwire, SQL, Git, and AI. I designed, implemented, and launched a complete web application called Petcare, which connects pet owners with caregivers.",
-    imgSrc: "/images/le_wagon.png",
+    imgSrc: "/images/le_wagon.webp",
   },
   {
     title: "Software Engineering",
