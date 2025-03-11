@@ -50,7 +50,7 @@ const Work = () => {
           Showcasing user-friendly frontend solutions and interactive web apps with a focus on quality and creativity.
         </p>
 
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(400px,_1fr))]">
+        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))]">
           {works.map(({ imgSrc, title, tags, projectLink }, key) => (
             <ProjectCard
               key={key}
