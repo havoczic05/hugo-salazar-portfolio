@@ -1,4 +1,5 @@
 // Components
+import RotatingText from '../components/HeroTitle';
 import { ButtonPrimary, ButtonOutline } from "./Button";
 const Hero = () => {
   return (
@@ -22,9 +23,23 @@ const Hero = () => {
               Available for work
             </div>
           </div>
-          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Bringing Fresh Talent and a Passion for Growth to Your Team
+          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 lg:mb-2 sm:px-2 md:px-3">
+          Hi, I&apos;m Hugo
           </h2>
+
+
+          <RotatingText
+            texts={['I am a Full Stack Developer', 'I am a Frontend Developer', 'I am a Suspense Movie Fan']}
+            mainClassName="bg-transparent px-2 sm:px-2 md:px-3 bg-cyan-300 text-white text-6xl font-extrabold overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg mb-5"
+            staggerFrom={"last"}
+            initial={{ y: "100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "-120%" }}
+            staggerDuration={0.050}
+            splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+            transition={{ type: "spring", damping: 30, stiffness: 400 }}
+            rotationInterval={4000}
+          />
           <div className="flex items-center gap-3">
             <ButtonPrimary
               label="Download CV"
